@@ -1,0 +1,1 @@
+const express = require('express');\nconst router = express.Router();\n\n// In-memory lobby store for now\nconst rooms = [];\n\nrouter.get('/rooms', (_req, res) => res.json(rooms));\nrouter.post('/rooms', (req, res) => {\n  // TODO: validate body, create room id, push to rooms\n  res.status(201).json({ id: 'room-1' });\n});\n\nmodule.exports = router;\n
