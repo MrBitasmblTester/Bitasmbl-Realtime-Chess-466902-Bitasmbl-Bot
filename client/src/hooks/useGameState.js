@@ -1,0 +1,1 @@
+import { useState } from 'react';\n\nexport function useGameState() {\n  const [board, setBoard] = useState([]);\n  const [turn, setTurn] = useState('white');\n\n  const applyServerUpdate = payload => {\n    // TODO: update board, turn, status from server payload\n  };\n\n  return { board, turn, applyServerUpdate, setBoard };\n}\n
