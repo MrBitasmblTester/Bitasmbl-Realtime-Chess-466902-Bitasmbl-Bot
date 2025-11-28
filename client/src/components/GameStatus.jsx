@@ -1,0 +1,1 @@
+import React from 'react';\n\nexport default function GameStatus({ turn, status }) {\n  // status could be 'ongoing', 'check', 'checkmate', etc.\n  return (\n    <section>\n      <p>Turn: {turn}</p>\n      <p>Status: {status}</p>\n    </section>\n  );\n}\n
