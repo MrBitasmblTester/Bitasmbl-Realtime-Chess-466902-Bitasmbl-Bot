@@ -1,0 +1,1 @@
+import { io } from 'socket.io-client';\n\n// TODO: externalize URL via env var\nexport const socket = io('http://localhost:4000', {\n  autoConnect: false\n});\n
