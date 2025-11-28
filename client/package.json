@@ -1,0 +1,1 @@
+{\n  \"name\": \"realtime-chess-client\",\n  \"version\": \"1.0.0\",\n  \"private\": true,\n  \"scripts\": { \"start\": \"react-scripts start\" },\n  \"dependencies\": { \"react\": \"^18\", \"react-dom\": \"^18\" }\n}\n
