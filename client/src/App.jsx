@@ -1,0 +1,1 @@
+import React from 'react';\nimport ChessBoard from './components/ChessBoard';\n\nexport default function App() {\n  // TODO: add simple lobby controls (room input, join button)\n  return (\n    <main>\n      <h1>Real-Time Chess</h1>\n      <ChessBoard />\n    </main>\n  );\n}\n
